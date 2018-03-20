@@ -8,12 +8,26 @@ body {
 
 .left-block {
     float: left;
-    width: 50%;
+    width: 40%;
 }
 
 .right-block {
     float: right;
+    width: 55%;
+    border: 3px solid orangered;
+    box-sizing: border-box;
+}
+
+.left-section {
+    float: left;
     width: 50%;
+    margin-top: 10px;
+}
+
+.right-section {
+    float: right;
+    width: 50%;
+    margin-top: 10px;
 }
 
 h1 {
@@ -30,7 +44,7 @@ span {
 }
 
 .header-image {
-    width: 75%;
+    width: 55%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -45,19 +59,26 @@ span {
 
 button {
     background-color: orange;
+    position: relative;
+    width: 10%;
+    left: 45%;
 }
 
-#imageChoice {
-    width: 100px;
+#choice #opponentChoice {
+    border: 1px solid black;
+}
+
+#imageChoice, #opponentImageChoice {
+    position: relative;
     height: 200px;
-    margin-left: 50px;
+    width: auto;
+    left: 40%;
 }
 
-#opponentChoice {
-    margin-left: 350px;
-    margin-top: 20px;
+#characterHealthDisplay, #opponentHealthDisplay {
+    color: red;
 }
 
-#opponentImageChoice {
-    margin-left: 400px;
+.fight {
+    text-align: center;
 }

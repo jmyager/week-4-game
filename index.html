@@ -14,7 +14,7 @@
     <title>Dragon Ball Z Game</title>
 </head>
 <body>
-    <img class="header-image" src="https://fontmeme.com/permalink/180319/d239c8191a3de3edd112bd487d0ef31c.png" alt="dragon-ball-z-font" border="0"><br>
+    <img class="header-image" src="assets/images/header.png" alt="dragon-ball-z-font" border="0"><br>
     
     <span class="left-block">
     <div id="choose"><h1>CHOOSE YOUR CHARACTER:</h1></div>
@@ -31,14 +31,19 @@
     </span>
 
     <span class="right-block">
-        <span><h1>FIGHT!</h1></span>
-        <span><button id="attack">ATTACK!</button></span>
-        <div id="choice"><h1></h1></div>
-        <div id="imageChoice"></div>
-        <div id="characterHealthDisplay"></div>
-        <div id="opponentChoice"><h1></h1></div>
-        <div id="opponentImageChoice"></div>
-        <div id="opponentHealthDisplay"></div>
+        <span><h1 class="fight">FIGHT!</h1></span>
+        <button id="attack">ATTACK!</button>
+        <br>
+        <span class="left-section">
+            <div id="choice"></div>
+            <div id="imageChoice"></div>
+            <div id="characterHealthDisplay"></div>
+        </span>
+        <span class="right-section">
+            <div id="opponentChoice"></div>
+            <div id="opponentImageChoice"></div>
+            <div id="opponentHealthDisplay"></div>
+        </span>
         <div id="message"></div>
     </span>
 
