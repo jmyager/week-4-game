@@ -14,7 +14,7 @@ body {
 .right-block {
     float: right;
     width: 55%;
-    border: 3px solid orangered;
+    height: 350px;
     box-sizing: border-box;
 }
 
@@ -64,8 +64,9 @@ button {
     left: 45%;
 }
 
-#choice #opponentChoice {
-    border: 1px solid black;
+#choice, #opponentChoice, #characterHealthDisplay, #opponentHealthDisplay {
+    position: relative;
+    left: 40%;
 }
 
 #imageChoice, #opponentImageChoice {
@@ -81,4 +82,11 @@ button {
 
 .fight {
     text-align: center;
+}
+
+#message {
+    position: absolute;
+    bottom: 10px;
+    right: 150px;
+    text-shadow: 1px 1px black;
 }

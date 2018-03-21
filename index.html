@@ -14,42 +14,44 @@
     <title>Dragon Ball Z Game</title>
 </head>
 <body>
-    <img class="header-image" src="assets/images/header.png" alt="dragon-ball-z-font" border="0"><br>
+    <img class="header-image" src="assets/images/header.png" alt="dragon-ball-z-logo-header"><br>
     
     <span class="left-block">
     <div id="choose"><h1>CHOOSE YOUR CHARACTER:</h1></div>
     <br>
-    <span id="goku"><img src="assets/images/goku.png"></span>
-    <span id="vegeta"><img src="assets/images/vegeta.png"></span>
-    <span id="cell"><img src="assets/images/cell.png"></span>
-    <span id="buu"><img src="assets/images/buu.png"></span>
-    <div id="opponent"><h1>CHOOSE YOUR OPPONENT:</h2></div>
+    <span id="goku"><img src="assets/images/goku.png" alt="goku"></span>
+    <span id="vegeta"><img src="assets/images/vegeta.png" alt="vegeta"></span>
+    <span id="cell"><img src="assets/images/cell.png" alt="cell"></span>
+    <span id="buu"><img src="assets/images/buu.png" alt="buu"></span>
+    <div id="opponent"><h1>CHOOSE YOUR OPPONENT:</h1></div>
     <span id="gokuOpponent"></span>
     <span id="vegetaOpponent"></span>
     <span id="cellOpponent"></span>
     <span id="buuOpponent"></span>
     </span>
 
-    <span class="right-block">
+    <div class="right-block">
         <span><h1 class="fight">FIGHT!</h1></span>
         <button id="attack">ATTACK!</button>
         <br>
-        <span class="left-section">
+        <div class="left-section">
             <div id="choice"></div>
-            <div id="imageChoice"></div>
             <div id="characterHealthDisplay"></div>
-        </span>
+            <div id="imageChoice"></div>
+            
+        </div>
         <span class="right-section">
             <div id="opponentChoice"></div>
-            <div id="opponentImageChoice"></div>
             <div id="opponentHealthDisplay"></div>
+            <div id="opponentImageChoice"></div>
         </span>
+        <div id="restart"></div>
         <div id="message"></div>
-    </span>
+    </div>
 
     <!-- Javascript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
     
 </body>
 </html>
